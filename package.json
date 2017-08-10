@@ -1,0 +1,36 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "A simple todo app using react js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack -d --watch",
+    "build": "webpack",
+    "serve": "serve ./public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sharmanilay/ToDoApp.git"
+  },
+  "author": "Nilay Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharmanilay/ToDoApp/issues"
+  },
+  "homepage": "https://github.com/sharmanilay/ToDoApp#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "serve": "^6.0.6",
+    "webpack": "^3.5.2"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "cloudinary-react": "^1.0.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
